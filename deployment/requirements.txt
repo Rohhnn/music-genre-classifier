@@ -1,5 +1,4 @@
---extra-index-url https://download.pytorch.org/whl/cpu
-torch==2.6.0+cpu
+torch
 transformers==4.50.3
 librosa==0.10.2
 numpy==1.26.4
