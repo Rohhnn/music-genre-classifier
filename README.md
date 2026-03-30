@@ -5,13 +5,9 @@
 **Course:** Intro to DL and GenAI — IIT Madras BS Degree (Jan 2026)  
 **Competition:** [Messy Mashup on Kaggle](https://www.kaggle.com/competitions/jan-2026-dl-gen-ai-project)  
 
----
-
 ## Task
 
 10-class music genre classification (blues, classical, country, disco, hiphop, jazz, metal, pop, reggae, rock) from stem-based audio mashups. The training set consists of 1,000 songs (100 per genre), each decomposed into four stems: drums, vocals, bass, and other. The test set contains 3,020 cross-song mashups with added ESC-50 noise. Evaluation metric: macro F1 score.
-
----
 
 ## Repository Structure
 
@@ -55,8 +51,6 @@ dl-genai-project-25-t3/
 └── venv/                            # Local Python environment (gitignored)
 ```
 
----
-
 ## Setup
 
 ### 1. Clone the repository
@@ -98,15 +92,11 @@ data/messy_mashup/
 └── sample_submission.csv
 ```
 
----
-
 ## Running Training
 
 Training notebooks live under `scripts/`. Open them in Jupyter or any suitable IDE and run cells sequentially.
 
 For MERT and full AST fine-tuning, use `scripts/train_mert_colab.ipynb` and `scripts/train_ast_full_finetune_colab.ipynb` on Google Colab (T4 GPU recommended).
-
----
 
 ## Deployment
 
