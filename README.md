@@ -1,16 +1,16 @@
 # Music Genre Classifier
 
-10-class music genre classification from stem-based audio mashups — trained for the [Messy Mashup](https://www.kaggle.com/competitions/jan-2026-dl-gen-ai-project) Kaggle competition.
+10-class music genre classification from stem-based audio mashups
 
-**Author:** Rohan Puntambekar ([@Rohhnn](https://github.com/Rohhnn))
+**Author:** Rohan Puntambekar
 
 | | |
 |---|---|
 | **Live demo** | [Streamlit app](https://music-genre-classifier-app-nxjyfsazbfkpqqzwpujfyw.streamlit.app/) |
-| **Deploy repo** | [`music-genre-classifier-app`](https://github.com/Rohhnn/music-genre-classifier-app) |
+| **Deployment repo** | [`music-genre-classifier-app`](https://github.com/Rohhnn/music-genre-classifier-app) |
 | **Model weights** | [`Rohhnn/music-genre-classifier`](https://huggingface.co/Rohhnn/music-genre-classifier) on Hugging Face |
 
-> The Streamlit Cloud deployment is intentionally kept in a **separate public repo** so the live app stays stable while this project repo evolves. Local `deployment/` here mirrors that app.
+> The Streamlit Cloud deployment is kept in a separate public repository so the live app stays stable while this project repo evolves. Local `deployment/` here mirrors that app.
 
 ## Overview
 
