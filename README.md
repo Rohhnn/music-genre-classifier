@@ -14,7 +14,9 @@
 
 ## Overview
 
-Training data: 1,000 songs (100 per genre), each split into four stems (drums, vocals, bass, other). Test set: 3,020 cross-song mashups with ESC-50 noise. Metric: **macro F1**.
+Training data: 1,000 songs (100 per genre), each split into four stems (drums, vocals, bass, other). 
+Test set: 3,020 cross-song mashups with ESC-50 noise. 
+Evaluation Metric: **macro F1**.
 
 Genres: blues, classical, country, disco, hiphop, jazz, metal, pop, reggae, rock.
 
