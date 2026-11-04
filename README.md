@@ -7,24 +7,22 @@
 | | |
 |---|---|
 | **Live demo** | [Streamlit app](https://music-genre-classifier-app-nxjyfsazbfkpqqzwpujfyw.streamlit.app/) |
-| **Deployment repo** | [`music-genre-classifier-app`](https://github.com/Rohhnn/music-genre-classifier-app) |
+| **Deployment repository** | [`music-genre-classifier-app`](https://github.com/Rohhnn/music-genre-classifier-app) |
 | **Model weights** | [`Rohhnn/music-genre-classifier`](https://huggingface.co/Rohhnn/music-genre-classifier) on Hugging Face |
 
 > The Streamlit Cloud deployment is kept in a separate public repository so the live app stays stable while this project repo evolves. Local `deployment/` here mirrors that app.
 
 ## Overview
 
-Training data: 1,000 songs (100 per genre), each split into four stems (drums, vocals, bass, other). 
-Test set: 3,020 cross-song mashups with ESC-50 noise. 
-Evaluation Metric: **macro F1**.
+The training data consisted of 1,000 songs (100 per genre), each split into four stems (drums, vocals, bass, other). The test set was created using 3,020 cross-song mashups with added ESC-50 noise. Macro F1 score was used to evaluate the trained models.
 
-Genres: blues, classical, country, disco, hiphop, jazz, metal, pop, reggae, rock.
+The 10 genres in the dataset were as follows: blues, classical, country, disco, hiphop, jazz, metal, pop, reggae, rock.
 
 ### Results (best model)
 
 | Model | Setup | Kaggle macro F1 | Val F1 |
 |-------|--------|-----------------|--------|
-| **AST (full fine-tune)** | 400 samples/genre, 10 epochs, TTA | **0.9314** | 0.9763 |
+| **AST (full fine-tune)** | 400 samples/genre, 10 epochs, TTA | **93.14%** | 97.63% |
 
 Other architectures explored: Decision Tree baseline, CNN, CRNN, EfficientNet, MERT, and staged AST fine-tuning. See `scripts/` and `reports/final_report.pdf`.
 
